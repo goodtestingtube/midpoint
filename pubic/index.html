@@ -1,14 +1,90 @@
 <!doctype html>
+<!-- START HEAD NOT-META -->
 <html lang="en">
 	<head>
 		<title>Midpoint: the Badbunsen blog</title>
+
+		<link rel="stylesheet" href="/siteside/style.css">
+		<link rel="icon" href="/favicon.ico">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<!-- END HEAD NOT-META -->
+
+<!-- START META -->
 		<meta name="author" content="Aleph Diallo (badbunsen.com)">
 		<meta name="description" content="Aleph Diallo's own blog, using his character Bunsen as a mask. Mostly art-centric, but on occassion he will post about his personal life.">
 		<meta property="og:description" content="Aleph Diallo's own blog, using his character Bunsen as a mask. Mostly art-centric, but on occassion he will post about his personal life.">
 		<meta name="keywords" 
 		content="aleph diallo,badbunsen,badbunsen.com,graphic design,graphic design is my passion,graphic design portfolio,portfolio,my portfolio,portfolio website,art portfolio,comics,comicart,characterart,fun,resume">
 	</head>
+<!-- END META -->
+
+<!-- START TEMPLATE FIRST PART -->
 	<body>
-		
+	
+	<!-- REDIRECT MESSAGE-->
+	 <div class="ui_redirectPopup" id="rdrctPp" style="display: none;">
+		<div class="ui_redirectBox">
+			This is a link from outside badbunsen.neocities.org that isn't directly associated with this neocities site. 
+			It will open in a new window.<br>
+
+			Are you sure you want to redirect to
+			<p class="ui_redirectMsg">
+				<span id="rdrctMsg">albuquerque, new mexico</span>
+			</p>
+
+			<p class="ui_redirectButtons">
+				<button class="ui_redirectButton ui_RedirectNOW" id="rdrctMe">Yes</button>
+				<button class="ui_redirectButton" onClick="redirectMeLater();">No</button>
+			</p>
+
+		</div>
+	 </div>
+	
+	<div class="ui_realContainer">
+		<div class="ui_Topshelf">
+			<img src="/siteside/ui/header.png" alt="header" id="header">
+			<nav class="ui_Navbar">
+				<img src="/siteside/ui/nav_buttons/today.png" alt="{today}" class="ui_Button">
+				<img src="/siteside/ui/nav_buttons/yesterday.png" alt="{yesterday}" class="ui_Button">
+				<img src="/siteside/ui/nav_buttons/month.png" alt="{this month}" class="ui_Button">
+				<img src="/siteside/ui/nav_buttons/all.png" alt="{archive}" class="ui_Button">
+				<a href="https://badbunsen.com"><img src="/siteside/ui/nav_buttons/main.png" alt="{main site}" class="ui_Button" style="float:right;"></a>
+			</nav>
+		</div>
+		<div class="ui_main"><main id="main">
+<!-- END TEMPLATE FIRST PART -->
+			
+<!-- START MAIN BLOGPOST -->
+ <h1>Blog is under construction</h1>
+ <p>No, the site is... still not done. That being said, however, to confuse less people
+	when they're looking for my site (badbunsen.com), I've decided to set my neocities 
+	website up as a blog I occassionally update with tidbits and stuff, and then my actual
+	site is for everything else so I don't have to upload and make sure both sites are the exact
+	same. It's also because I felt like making a blog at some point but didn't quite know where 
+	to put it. So expect the blog to be fully set up at some point.<br>
+	If you still want to look at actual art and such, there will always be a button for the main site in
+	the navbar, which looks like this: 
+	<a href="https://badbunsen.com"><img src="/siteside/ui/nav_buttons/main.png" alt="{main site}" class="ui_Button"></a>.
+ </p>
+<!-- END MAIN BLOGPOST -->
+
+<!-- START PAGE-SPECIFIC STUFF-->
+<!-- END PAGE-SPECIFIC STUFF-->
+			
+<!-- START THE REST OF THIS SHIT -->
+		</main></div>
+		<div class="ui_Bottomshelf">
+			<footer>
+				<p>Copyright &copy; Aleph Diallo (badbunsen.com). Some rights reserved, unless otherwise noted. 
+				All post comic art and text, unless otherwise noted, is licensed under
+				<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" onClick="redirectPopup(this.href); return false;" target="_blank">CC BY-NC-SA 4.0</a>&#9741;.</p>
+				<p><img src="siteside/cc/by-nc-sa.svg" width="88" height="31" id="CC BY-NC-SA 4.0 button"><img src="siteside/bbbutton.gif" id="Badbunsen Neocities button"></p>
+			</footer>
+		</div>
+		<img src="/siteside/ui/footer.gif" id="fadeout">
+		<script type="text/javascript" src="siteside/scripts.js"></script>
+	</div>
 	</body>
 </html>
+<!-- END THE REST OF THIS SHIT-->
