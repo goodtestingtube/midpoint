@@ -6,6 +6,7 @@ function redirectPopup(url) {
 	popup_message.innerHTML = url;
 	popup_display.style = "display:block";
 	popup_button.setAttribute("onclick","redirectMe('" + url + "');");
+	window.location.href = "#rdrctButts";
 }
 
 function redirectMe(url) {
