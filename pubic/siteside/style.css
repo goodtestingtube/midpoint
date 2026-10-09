@@ -1,6 +1,6 @@
 html {
 	font-family: sans-serif;
-	background: #1c63b4;
+	background: #1c63b4 url("ui/cloudbg.png");
 }
 
 .ui_realContainer {
